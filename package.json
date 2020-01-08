@@ -1,0 +1,23 @@
+{
+  "name": "nextjs-serverless",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:impressor615/nextjs-serverless.git",
+  "author": "seonghyeon <impressor7@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^9.1.7",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.4",
+    "@types/react": "^16.9.17",
+    "typescript": "^3.7.4"
+  }
+}
