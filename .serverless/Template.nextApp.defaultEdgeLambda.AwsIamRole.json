@@ -1,0 +1,12 @@
+{
+  "name": "o3d80oq-u5u9ti",
+  "arn": "arn:aws:iam::972918690351:role/o3d80oq-u5u9ti",
+  "service": [
+    "lambda.amazonaws.com",
+    "edgelambda.amazonaws.com"
+  ],
+  "policy": {
+    "arn": "arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
+  },
+  "region": "us-east-1"
+}
