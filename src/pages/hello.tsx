@@ -3,8 +3,8 @@ import Head from 'next/head';
 const Page = () => {
   return (
     <>
-      <Head><title>IndexPage</title></Head>
-      <div>Welcome index page</div>
+      <Head><title>HelloPage</title></Head>
+      <div>Welcome Hello page</div>
     </>
   );
 }
