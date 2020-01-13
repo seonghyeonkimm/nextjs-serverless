@@ -1,6 +1,6 @@
 {
-  "name": "o3d80oq-u5u9ti",
-  "arn": "arn:aws:iam::972918690351:role/o3d80oq-u5u9ti",
+  "name": "o3d80oq-2ew827d",
+  "arn": "arn:aws:iam::972918690351:role/o3d80oq-2ew827d",
   "service": [
     "edgelambda.amazonaws.com",
     "lambda.amazonaws.com"
