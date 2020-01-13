@@ -5,7 +5,15 @@ import Head from 'next/head';
 type Props = { name: string; };
 class Page extends React.Component<Props> {
   static async getInitialProps(ctx) {
-    const { data } = await axios.get('/api/hello-world');
+    let data = {};
+    try {
+      const resp = await axios.get(
+        '/api/hello-world',
+        { baseURL: ctx.req ? `${new URL(ctx.req.headers.referer).origin}` : window.location.origin },
+      );
+      data = resp.data;
+    } catch (e) {}
+
     return data;
   }
 
