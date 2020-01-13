@@ -9,7 +9,7 @@ class Page extends React.Component<Props> {
     try {
       const resp = await axios.get(
         '/api/hello-world',
-        { baseURL: ctx.req ? `${new URL(ctx.req.headers.referer).origin}` : window.location.origin },
+        { baseURL: ctx.req ? `https://d9b5r7xrlfpsj.cloudfront.net` : window.location.origin },
       );
       data = resp.data;
     } catch (e) {}
